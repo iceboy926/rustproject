@@ -26,4 +26,6 @@ fn main() {
     let m: u64 = Paillier::decrypt(&dk, &d);
 
     println!("decrypted total sum is {}", m);
+
+    println!("new data");
 }
